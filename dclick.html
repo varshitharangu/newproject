@@ -1,0 +1,20 @@
+<html>
+    <head>
+    <title>document</title>
+    </head>
+    <body>
+        <h1 id="one" onmouseenter="oh() "style="border:dotted,color:red>hello">hello....</h1>
+       
+        <input id="two" type="text">
+        <button onmouseenter="oh()">click</button>
+    </body>
+    <script>
+        function oh(){
+            var c=document.getElementById("one").innerHTML
+            document.getElementById("two").value=c
+            //document.write(c)//
+        }
+    </script>
+</html>
+
+               

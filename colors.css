@@ -1,0 +1,15 @@
+h1{
+	color:red;
+	border:dotted;
+}
+h2{
+	color:blue;
+	border:ridge;
+}
+p{
+	color:pink;
+	border:solid;
+}
+body{    
+	background-color:skyblue;
+}
